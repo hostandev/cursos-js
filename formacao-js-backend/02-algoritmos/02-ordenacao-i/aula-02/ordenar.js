@@ -17,4 +17,7 @@ function ordenar(lista){
 	return lista;
 }
 
-module.exports = ordenar;
+module.exports = {
+	ordenar: ordenar,
+	troca: troca
+};
